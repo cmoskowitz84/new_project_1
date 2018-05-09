@@ -2,10 +2,11 @@
 
 /* Style for the body element */
 body {
+	
 	background: -webkit-linear-gradient(LightGray, DodgerBlue); 
     	background: -o-linear-gradient(LightGray, DodgerBlue); 
     	background: -moz-linear-gradient(LightGray, DodgerBlue); 
-    	background: linear-gradient(LightGray, DodgerBlue); 
+	background: linear-gradient(LightGray, DodgerBlue);
 	background-attachment: fixed;
 }
 
@@ -34,12 +35,12 @@ body {
 	margin-left: 3em;
 	margin-right: 3em;
 	float: left;
-	padding-left: 5em;
-	padding-right: 5em;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: .25em;
+	padding-bottom: .25em;
 	border: solid;
-	border-color: black;
+	border-color: lightgray;
 }
 
 /* Style for the p element */
