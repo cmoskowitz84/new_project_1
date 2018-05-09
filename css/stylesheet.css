@@ -2,17 +2,50 @@
 
 /* Style for the body element */
 body {
-	background: -webkit-linear-gradient(white, yellow); 
-    background: -o-linear-gradient(white, yellow); 
-    background: -moz-linear-gradient(white, yellow);
-    background: linear-gradient(white, yellow); 
+	background: -webkit-linear-gradient(LightGray, DodgerBlue); 
+    	background: -o-linear-gradient(LightGray, DodgerBlue); 
+    	background: -moz-linear-gradient(LightGray, DodgerBlue); 
+    	background: linear-gradient(LightGray, DodgerBlue); 
 	background-attachment: fixed;
 }
 
-/* Style for the container element */
-#container {
-	margin-left: auto;
-	margin-right: auto;
+/* Style for the h1 element */
+.header {
+	margin: 0 auto;
+}
+
+/* Style for the h1 element */
+.header h1 {
+	color: black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/* Style for the img element */
+.header img {
+  	float: left;
+	margin: 0px 15px 15px 0px;
+}
+
+/* Style for the area1 id */
+#area1 {
+	clear: both;
+	text-align: center;
+	background-color: white;
+	margin-left: 3em;
+	margin-right: 3em;
+	float: left;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: solid;
+	border-color: black;
+}
+
+/* Style for the p element */
+p {
+	color: black;
+	text-size: 3em;
 }
 
 /* Style for the footer element */
